@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Naivasha Girls - Admission</title>
+	<!-- Main CSS file -->
+	<link rel="stylesheet" href="tools/css/bootstrap.css">
+	<link rel="stylesheet" href="tools/css/magnific-popup.css">
+	<link rel="stylesheet" href="tools/css/font-awesome.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="tools/css/responsive.css">
+	<!-- Favicon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="shortcut icon" href="tools/images/icon/logo1.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	      href="tools/images/icon/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	      href="tools/images/icon/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	      href="tools/images/icon/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="tools/images/icon/apple-touch-icon-57-precomposed.png">
+	
+	<style>
+body {font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#thanks{
+  padding-left: 20px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!-- PRELOADER -->
+<div id="st-preloader">
+	<div id="pre-status">
+		<div class="preload-placeholder"></div>
+	</div>
+</div>
+<!-- /PRELOADER -->
+<!-- HEADER -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="index.html"><img id="logo" src="tools/images/icon/logo.png" alt="Logo"  width="50"></a>
+                        <!-- Navbar Toggler -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <!-- Navbar -->
+                        <div class="collapse navbar-collapse" id="worldNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item" id="">
+                                    <a class="nav-link" href="about.html">About</a>
+                                     <div class="menu-sub" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              
+              <div class="menu-col-1">
+                <h3 class="menu-category">Our History</h3>
+                <ul>
+  <div class="w3-card-4" style="auto">
+    <header class="w3-container w3-light-grey">
+      <h3>Principal</h3>
+    </header>
+    <div class="w3-container">
+      <hr>
+      <img src="images/History-Pic.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+      <p> Naivasha Girls is one of the most disciplined schools in the country....</p><br>
+    </div>
+    <a href="about.html" type="button"class="w3-button w3-block w3-dark-grey" style="align:center;" >Read More</a>
+    
+  </div>
+
+                </ul>
+
+              </div>
+
+              <div class="menu-col-2">
+                <h3 class="menu-category">Management</h3>
+                <ul>
+  <div class="w3-card-4" style="auto">
+    <header class="w3-container w3-light-grey">
+      <h3>Principal</h3>
+    </header>
+    <div class="w3-container">
+      <hr>
+      <img src="pics/Principal1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+      <p> Naivasha Girls is one of the most disciplined schools in the country....</p><br>
+    </div>
+    <a href="about.html" type="button"class="w3-button w3-block w3-dark-grey" style="align:center;" >Read More</a>
+    
+  </div>
+                </ul>
+              </div>
+
+
+              <div class="menu-col-3">
+                <h3 class="menu-category">Our Values</h3>
+                <ul>
+  <div class="w3-card-4" style="auto">
+    <header class="w3-container w3-light-grey">
+      <h3>Principal</h3>
+    </header>
+    <div class="w3-container">
+      <hr>
+      <img src="pics/scouts.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+      <p> Naivasha Girls is one of the most disciplined schools in the country....</p><br>
+    </div>
+    <a href="about.html" type="button"class="w3-button w3-block w3-dark-grey" style="align:center;" >Read More</a>
+    
+  </div>
+                </ul>
+              </div>
+            </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="academics.html">Academics</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="/sciences" class="dropdown-item">
+                            <i class="material-icons">school</i> Sciences
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="material-icons">school</i> Mathematics
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="material-icons">school</i> Technical and applied
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="material-icons">school</i> Humanities
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="material-icons" style="color:red;">school</i> English
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="material-icons">school</i> Kiswahili
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="material-icons">school</i> Examinations
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="material-icons">school</i> Guidance and counselling
+                        </a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Talent Corner</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link smooth-scroll" href="#contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- /HEADER -->
+<section id="our-works" class="section-padding">
+<div class="admincontent" id="">
+    <div class="col-md-4 offset-md-4">
+      <h3>Dear Applicant</h3>
+<p>We appreciate your interest in joining our school. <br>
+To successfully apply your are rquired.<br>
+<ol>
+  <li>Sign Up with us then</li>
+  <li>Download Our Application Form or fill our online form</li>
+  <li>Fully fill the form you downloaded</li>
+  <li>Present the filled form to Us</li>
+  <li>Carry along with you your Birth Certificate </li>
+  <li>Your KCPE certificate</li>
+  <li>X-ray Picture </li>
+</ol>
+
+      </p>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" <i class="fa fa-sign-in"></i> Sign Up To Get you Started</button>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" method="post" action="post.php" >
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="name"><b>Your Names</b></label>
+      <input type="text" placeholder="Enter Your Name" name="names" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn" name="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+</section>
+
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="overlay"></div>
+  <section class="" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h2>Contact us</h2>
+        </div>
+      </div>
+      <div class="col-md-4 contact-info">
+        <p class="contact-content">Feel free to leave us a comment..</p>
+        <p class="st-address"><i class="fa fa-map-marker"></i> <strong>Nakuru-Nairobi Highway, Naivasha Mjini 21001,
+          Kenya</strong>
+        </p>
+        <p class="st-phone"><i class="fa fa-mobile"></i> <strong>+254 712 345 678</strong>
+        </p>
+        <p class="st-email"><i class="fa fa-envelope-o"></i> <strong>info@naivashagirls.com</strong>
+        </p>
+        <p class="st-website"><i class="fa fa-globe"></i> <strong>www.naivashagirls.sc.ke</strong>
+        </p>
+      </div>
+      <div class="col-md-7 offset-sm-">
+        <form action="contact.php" method=""class="contact-form" name="contact-form"
+              method="post">
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" name="name" required="required" placeholder="Name*">
+            </div>
+            <div class="col-md-6">
+              <input type="email" name="email" required="required" placeholder="Email*">
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="subject" placeholder="Subject">
+            </div>
+            <div class="col-md-12">
+              <textarea name="message" required="required" cols="30" rows="7"
+                        placeholder="Message*"></textarea>
+              <div class="g-recaptcha" data-sitekey="6LfOO2MUAAAAAHoaqcp9qCBA1jD8_h07XUQHKHdI" required="required"></div><br>
+              <input type="submit" name="submit" class="btn btn-send">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+  <div class="container">
+    <div class="row">
+      <!-- SOCIAL ICONS -->
+      <div class="col-md-3 order-sm-2 footer-social-icons"><span>Follow us:</span>
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a
+          href=""><i class="fa fa-twitter"></i>
+        </a> <a href=""><i class="fa fa-google-plus"></i></a>
+        <a href=""><i class="fa fa-pinterest-p"></i></a>
+      </div>
+      <!-- /SOCIAL ICONS -->
+      <div class="col-md-6 order-sm-1 copyright">
+        <p>&#xA9; 2018 <a href="#">Designed by Joash & Hassan</a>. All Rights Reserved. | powered by Zalego</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /FOOTER -->
+<!-- Scroll-up -->
+<div class="scroll-up">
+	<ul>
+		<li><a class="smooth-scroll" href="#header"><i class="fa fa-angle-up"></i></a>
+		</li>
+	</ul>
+</div>
+</section>
+<!-- JS -->
+<script src="tools/js/jquery.min.js"></script><!-- jQuery -->
+<script src="tools/js/popper.min.js"></script><!-- popper -->
+<script src="tools/js/bootstrap.min.js"></script><!-- Bootstrap -->
+<script src="tools/js/jquery.parallax.js"></script><!-- Parallax -->
+<script src="tools/js/jquery.easing.min.js"></script><!-- Easing animation -->
+<script src="tools/js/jquery.fitvids.js"></script><!-- fitvids -->
+<script src="tools/js/jquery.counterup.min.js"></script><!-- CounterUp -->
+<script src="tools/js/waypoints.min.js"></script><!-- waypoints -->
+<script src="tools/js/jquery.isotope.min.js"></script><!-- isotope -->
+<script src="tools/js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
+<script src="tools/js/scripts.js"></script><!-- Scripts -->
+<script src="tools/js/myjs.js"></script><!-- Scripts -->
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
